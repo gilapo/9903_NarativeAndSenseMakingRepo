@@ -2203,6 +2203,10 @@ PrefabInstance:
       propertyPath: 'altDestinations.Array.data[1]'
       value: 
       objectReference: {fileID: 132566635}
+    - target: {fileID: 2415476403764404839, guid: 4a0054a57a6af8941b68b7633998117f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3411921127519314762, guid: 4a0054a57a6af8941b68b7633998117f, type: 3}
       propertyPath: m_Name
       value: Moving Character - Doggo Feedable Animated
