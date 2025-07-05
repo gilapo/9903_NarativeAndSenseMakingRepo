@@ -1474,7 +1474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3fb17fa8cded0469c67990d61ef9de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: Scene_2
+  targetSceneName: Scene_1 1
   playerTag: Player
   delay: 4
 --- !u!4 &129502679 stripped
@@ -8521,7 +8521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6086129304963300965, guid: 15e8037147707d2418f067e81feddb58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.811882
+      value: 0.62
       objectReference: {fileID: 0}
     - target: {fileID: 6086129304963300965, guid: 15e8037147707d2418f067e81feddb58, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11395,8 +11395,8 @@ Transform:
   m_GameObject: {fileID: 861237773}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.9650255, z: -0, w: 0.26215613}
-  m_LocalPosition: {x: -8.36, y: -0.8599999, z: -82.22}
-  m_LocalScale: {x: 51.339493, y: 4.4153, z: 0.28261277}
+  m_LocalPosition: {x: -8, y: -0.8599999, z: -81.8}
+  m_LocalScale: {x: 57.62858, y: 4.4153, z: 0.28261277}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1328862184}
