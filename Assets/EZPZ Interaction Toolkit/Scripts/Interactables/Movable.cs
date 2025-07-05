@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UIElements;
@@ -15,8 +14,8 @@ public class Movable : InteractableGeneral
     public bool groundPlace = false;
     public Vector3 groundPlaceOffset;
     public bool moving = false;
-    public bool freezeRotation = false;           
-    public Collider [] subCollliders;
+    public bool freezeRotation = false;
+    public Collider[] subCollliders;
     public float snapSpeed = 20;
 
     [Header("System Stuff (Usually Don't Touch)")]
@@ -35,14 +34,14 @@ public class Movable : InteractableGeneral
         myCollider = GetComponent<Collider>();
         myRbody = GetComponent<Rigidbody>();
 
-        if(subCollliders.Length <= 0)
+        if (subCollliders.Length <= 0)
         {
             subCollliders = transform.GetComponentsInChildren<Collider>();
         }
 
-        if(attachPoint == null)
+        if (attachPoint == null)
         {
-            attachPoint =  transform.Find("attachPoint");
+            attachPoint = transform.Find("attachPoint");
         }
 
         if (attachPoint == null)
@@ -60,9 +59,9 @@ public class Movable : InteractableGeneral
             attachPoint = transform.Find("attach point");
         }
 
-        if(attachPoint != null)
+        if (attachPoint != null)
         {
-            if(transform.localScale.x != 1 ||
+            if (transform.localScale.x != 1 ||
                 transform.localScale.y != 1 ||
             transform.localScale.z != 1)
             {
@@ -73,7 +72,7 @@ public class Movable : InteractableGeneral
 
     public void Update()
     {
-        if(freezeRotation)
+        if (freezeRotation)
         {
             transform.rotation = startingRotation;
         }
@@ -90,7 +89,7 @@ public class Movable : InteractableGeneral
         transform.position = startingPosition;
         transform.rotation = startingRotation;
 
-        if(myRbody != null)
+        if (myRbody != null)
         {
             myRbody.linearVelocity = Vector3.zero;
             myRbody.angularVelocity = Vector3.zero;
@@ -99,7 +98,7 @@ public class Movable : InteractableGeneral
     }
 
     public void ResetOrientationAll()
-    {   
+    {
 
         Movable[] allMovables = Object.FindObjectsByType<Movable>(FindObjectsSortMode.None);
 
@@ -108,7 +107,7 @@ public class Movable : InteractableGeneral
 
         MovableMagnetSnapper[] allMagnets = Object.FindObjectsByType<MovableMagnetSnapper>(FindObjectsSortMode.None);
 
-        if(allMagnets.Length > 0)
+        if (allMagnets.Length > 0)
         {
             foreach (MovableMagnetSnapper m in allMagnets)
                 m.ReleaseSubject();
@@ -122,7 +121,7 @@ public class Movable : InteractableGeneral
     {
         myRayManipulator = newManipulator;
     }
-    
+
     public void Drop()
     {
         onDrop.Invoke();
@@ -133,24 +132,24 @@ public class Movable : InteractableGeneral
         moving = false;
         transform.parent = null;
 
-        if(myRayManipulator != null)
+        if (myRayManipulator != null)
         {
             myRayManipulator.previousMoveParent = null;
             myRayManipulator.moveSubject = null;
             myRayManipulator = null;
         }
 
-        if(myMagnetSnapper != null)
+        if (myMagnetSnapper != null)
         {
             myMagnetSnapper.subject = null;
             myMagnetSnapper = null;
         }
 
-        
-        SetColliderIsTrigger(this, false);        
+
+        SetColliderIsTrigger(this, false);
 
 
-        if(myRbody != null)
+        if (myRbody != null)
         {
             myRbody.isKinematic = false;
             myRbody.useGravity = true;
