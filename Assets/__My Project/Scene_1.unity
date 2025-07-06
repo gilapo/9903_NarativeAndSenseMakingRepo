@@ -1313,15 +1313,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6953476617054683852, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.82
+      value: -9.31
       objectReference: {fileID: 0}
     - target: {fileID: 6953476617054683852, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.33
+      value: 18.67
       objectReference: {fileID: 0}
     - target: {fileID: 6953476617054683852, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26.01
+      value: 25.7
       objectReference: {fileID: 0}
     - target: {fileID: 6953476617054683852, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1357,7 +1357,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7772526916590547685, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
       propertyPath: visibleAtRuntime
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7772526916590547685, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
       propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.size
@@ -15808,11 +15808,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fda664808ff601d4482acb1230550248, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9782705
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fda664808ff601d4482acb1230550248, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.2073327
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fda664808ff601d4482acb1230550248, type: 3}
       propertyPath: m_LocalRotation.y
@@ -15824,7 +15824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fda664808ff601d4482acb1230550248, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 23.932
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fda664808ff601d4482acb1230550248, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -17295,31 +17295,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4569487752006067896, guid: f7dbce4e259a9d74b87b2bfd06991abe, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9638786
+      value: 0.9568664
       objectReference: {fileID: 0}
     - target: {fileID: 4569487752006067896, guid: f7dbce4e259a9d74b87b2bfd06991abe, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.1688549
+      value: -0.20489146
       objectReference: {fileID: 0}
     - target: {fileID: 4569487752006067896, guid: f7dbce4e259a9d74b87b2bfd06991abe, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.19093312
+      value: 0.18790027
       objectReference: {fileID: 0}
     - target: {fileID: 4569487752006067896, guid: f7dbce4e259a9d74b87b2bfd06991abe, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.07727078
+      value: -0.08437838
       objectReference: {fileID: 0}
     - target: {fileID: 4569487752006067896, guid: f7dbce4e259a9d74b87b2bfd06991abe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -17.218
+      value: -21.125
       objectReference: {fileID: 0}
     - target: {fileID: 4569487752006067896, guid: f7dbce4e259a9d74b87b2bfd06991abe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 24.372
+      value: 24.997
       objectReference: {fileID: 0}
     - target: {fileID: 4569487752006067896, guid: f7dbce4e259a9d74b87b2bfd06991abe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -12.912
+      value: -14.812
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20712,7 +20712,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 137b938d2e9c21f4991bff49ac125ddd, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: bc7af5e0f1b6cca4a8085ba4989409c6, type: 2}
   m_BuildHeightMesh: 0
 --- !u!65 &1553530836
 BoxCollider:
@@ -24192,6 +24192,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 861110927101218661, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2094408382421972447, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -24258,7 +24262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7772526916590547685, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
       propertyPath: visibleAtRuntime
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7772526916590547685, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
       propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.size
@@ -27634,7 +27638,7 @@ MonoBehaviour:
   altDestinations:
   - {fileID: 2101671704833304867}
   - {fileID: 0}
-  avatarAnimator: {fileID: 2481992100378803966}
+  avatarAnimator: {fileID: 0}
   speedString: speed
   myNma: {fileID: 7009611572197822477}
   arrivalFlag: 0
@@ -27740,28 +27744,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &2481992100378803966
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6202450086673249359}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &2672273211877780965
 Transform:
   m_ObjectHideFlags: 0
@@ -28125,7 +28107,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7118948127885488305}
   - component: {fileID: 1124178138496746660}
-  - component: {fileID: 2481992100378803966}
   m_Layer: 0
   m_Name: Graphics
   m_TagString: Untagged
