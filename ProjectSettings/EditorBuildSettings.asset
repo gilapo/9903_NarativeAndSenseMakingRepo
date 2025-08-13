@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/__My Project/Scene_2.unity
     guid: 387fa1fa27aaba64291144195efbf91d
+  - enabled: 1
+    path: Assets/__My Project/Scene_3.unity
+    guid: a789d7d5162b4004ea1e9c9438ea1074
+  - enabled: 1
+    path: Assets/__My Project/Scene_4.unity
+    guid: ed8a2683b6507144eba292aca03f23b7
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ad9b022061dc98543b541150c179eba3, type: 2}

@@ -13784,9 +13784,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 861110927101218661, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2071024720}
-    - targetCorrespondingSourceObject: {fileID: 861110927101218661, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2071024721}
   m_SourcePrefab: {fileID: 100100000, guid: 8fedd5b0825719b4ca51c693db71c38d, type: 3}
 --- !u!1 &2071024713 stripped
 GameObject:
@@ -13823,24 +13820,9 @@ MonoBehaviour:
   fadeCanvasGroup: {fileID: 639261347}
   fadeDuration: 2
   messageDelay: 1
-  messageCanvasGroup: {fileID: 0}
+  messageCanvasGroup: {fileID: 378978318}
   messageFadeDuration: 1
   playerTag: Player
---- !u!114 &2071024721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071024713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3fb17fa8cded0469c67990d61ef9de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetSceneName: Scene_4
-  playerTag: Player
-  delay: 3
 --- !u!1001 &2071993687
 PrefabInstance:
   m_ObjectHideFlags: 0
