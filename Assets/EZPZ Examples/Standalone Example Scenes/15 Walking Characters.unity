@@ -2871,6 +2871,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5f603a94acfc034f85e9d67cc1c1ff1, type: 3}
+--- !u!1001 &1667324266040510699
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5162465125202727879, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_Name
+      value: Cages with animals Cat
+      objectReference: {fileID: 0}
+    - target: {fileID: 5870613325066452828, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: 'altDestinations.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1230763581}
+    - target: {fileID: 8795860227166134143, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795860227166134143, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.427
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795860227166134143, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.983
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795860227166134143, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795860227166134143, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795860227166134143, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795860227166134143, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795860227166134143, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795860227166134143, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795860227166134143, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4abaa6706878d8d48b5428deeb5d5f2a, type: 3}
 --- !u!1 &1826578556667950137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2889,6 +2950,67 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1001 &2976994179898511813
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 387023098040454562, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 387023098040454562, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.427
+      objectReference: {fileID: 0}
+    - target: {fileID: 387023098040454562, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 387023098040454562, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 387023098040454562, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387023098040454562, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387023098040454562, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387023098040454562, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387023098040454562, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387023098040454562, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2440686098132237798, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: m_Name
+      value: Cages with animals Dogo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7956462483787703735, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
+      propertyPath: 'altDestinations.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1230763581}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b4f1c4f2e84130c4f8a4f4e03741e766, type: 3}
 --- !u!33 &3332338299883398930
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3524,3 +3646,5 @@ SceneRoots:
   - {fileID: 8232412085123560870}
   - {fileID: 8231524045319765809}
   - {fileID: 1619310850944736856}
+  - {fileID: 2976994179898511813}
+  - {fileID: 1667324266040510699}
